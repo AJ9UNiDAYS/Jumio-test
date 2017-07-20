@@ -50,7 +50,7 @@ class ViewController: UIViewController {
 
 6) Ensured `ViewController` has the appropriate delegate:
 
-```
+```swift
 extension ViewController: NetverifyViewControllerDelegate {
     
     func netverifyViewController(_ netverifyViewController: NetverifyViewController, didFinishInitializingWithError error: Error?) {
@@ -69,7 +69,7 @@ extension ViewController: NetverifyViewControllerDelegate {
 
 7) Attempted to build the project resulting in the following error:
 
-```
+```swift
 ld: warning: ignoring file <PROJECT-DIRECTORY>/Pods/JumioMobileSDK/sdk-device-frameworks/JumioCore.framework/JumioCore, missing required architecture x86_64 in file <PROJECT-DIRECTORY>/Pods/JumioMobileSDK/sdk-device-frameworks/JumioCore.framework/JumioCore (2 slices)
 ld: warning: ignoring file <PROJECT-DIRECTORY>/Pods/JumioMobileSDK/sdk-device-frameworks/MicroBlink.framework/MicroBlink, missing required architecture x86_64 in file <PROJECT-DIRECTORY>/Pods/JumioMobileSDK/sdk-device-frameworks/MicroBlink.framework/MicroBlink (2 slices)
 ld: warning: ignoring file <PROJECT-DIRECTORY>/Pods/JumioMobileSDK/sdk-device-frameworks/Netverify.framework/Netverify, missing required architecture x86_64 in file <PROJECT-DIRECTORY>/Pods/JumioMobileSDK/sdk-device-frameworks/Netverify.framework/Netverify (2 slices)
