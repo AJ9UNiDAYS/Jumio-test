@@ -1,0 +1,10 @@
+framework module JumioCore {
+  umbrella header "JumioCore.h"
+
+  export *
+  module * { export * }
+}
+
+module JumioCore.Swift {
+    header "JumioCore-Swift.h"
+}

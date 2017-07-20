@@ -1,0 +1,12 @@
+PODS:
+  - JumioMobileSDK/Netverify (2.7.0)
+
+DEPENDENCIES:
+  - JumioMobileSDK/Netverify
+
+SPEC CHECKSUMS:
+  JumioMobileSDK: 5d4911e61596778033e2e693a3945d83afafc2e0
+
+PODFILE CHECKSUM: 4309f549d6aeaa74ee97bc288df7dc1ea96cda9d
+
+COCOAPODS: 1.2.1

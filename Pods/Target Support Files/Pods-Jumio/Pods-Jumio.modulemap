@@ -1,0 +1,6 @@
+framework module Pods_Jumio {
+  umbrella header "Pods-Jumio-umbrella.h"
+
+  export *
+  module * { export * }
+}
