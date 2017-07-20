@@ -1,5 +1,4 @@
 # Jumio-test
-Test iOS Repo to integrate Jumio.
 
 ### Unsuccessful steps to integrate so far:
 
